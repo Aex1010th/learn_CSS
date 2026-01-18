@@ -1,0 +1,138 @@
+:root {/*create variables*/
+    --main-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-color: #333333;
+    --padding: 10px;
+    --margin: 10px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav {
+    background-color:  var(--secondary-color);
+    overflow: hidden;
+    text-align: right;
+    width: 200px auto;
+    height: 100px auto;
+    position: sticky; /*กำหนดให้อยู่กับที่จนกว่าจะเลื่อนผ่านตำแหน่งที่กำหนด*/
+    top: 0; /*ระยะห่างจากขอบบน*/
+    z-index: 1000; /*กำหนดลำดับชั้นของการซ้อนทับ*/
+}
+.nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+div {
+    width: auto;
+    height: 150px ;
+    background-color: aquamarine;
+    /*padding: 60px 40px ; /*ระยะห่างภายใน*/
+   /* margin: 20px  20px 20px 20px ;ระยะห่างจากขอบ*/
+    
+}
+/*
+p{
+    display: inline;/*การเปลี่ยน block to inline
+    text-align: center;
+    /*color: rgb(247, 18, 251);
+   /* visibility: hidden; ซ่อนข้อความแต่ยังครอบพื้นที่อยู่*
+}*/
+.container {
+    max-width: 100%;
+    height: 520px;
+    margin: 0 auto;
+    background-color: #10e3ff;
+    position: relative;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff5733;
+    padding: 20px;
+    
+    /*position: static; ค่าเริ่มต้น*/
+    /*position: relative; กำหนดให้อยู่ในช่อง*/
+    /*position:fixed; กำหนดให้อยู่กับที่ไม่เลื่อนตามหน้า*/
+   /* position: absolute; กำหนดตำแหน่งแบบระบุพิกัด ใช้ร่วมกับ relative จากกล่องที่คลุมไว้*/
+    
+   /* top: 20px;
+    left: 20px;*/
+}
+/* Pseudo-class */
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*
+p::first-line {
+    font-weight: bold;
+    color: rgb(41, 246, 116);
+    font-size: 50px;
+}*/
+/*
+.Overflow .box{
+    width: 100%;
+    height: 150px;
+    border: 2px solid #000000;
+    background-color: aqua;
+    overflow: auto;
+}*/
+/*table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+th {
+    height: 50px;
+}
+td {
+    height: 50px;
+}
+tr:hover {
+    background-color: #47fcf0;
+}*/
+
+/*
+.container {
+    list-style-type: none;
+    width: 100% auto;
+    height: 100%;
+    background-color: #10e3ff;
+    padding: 0%;
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    
+    
+}*/
+/*
+.imag{
+    width: 500px;
+    height: 200px;
+    background-image: url("link_image");ใช้วางรูปภาพ
+    background-size: cover; ปรับขนาดภาพให้พอดีกับพื้นที่ 
+    background-repeat: no-repeat; ไม่ให้ภาพทำซ้ำ 
+    background: #333333 url("link") no-repeat center;
+    background-attachment: fixed;/*ภาพพื้นหลังไม่เลื่อนตามหน้า
+}*/
+/*
+p.solid {/*เส้นขอบ
+    border: 2px solid rgb(248, 112, 0);
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}*/
